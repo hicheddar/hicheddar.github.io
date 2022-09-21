@@ -37,6 +37,7 @@ div.bar {
   background-clip: content-box;
   
   position: relative;
+  z-index: -1;
   width: auto;
   height: 250px;
   padding-top: 70px;
@@ -80,6 +81,7 @@ a {
 }
 
 li {
+  z-index: 5;
   float: left;
 }
 
